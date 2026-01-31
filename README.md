@@ -9,6 +9,7 @@ Built with HTML, CSS, and JavaScript, focusing on usability, accessibility, perf
 
 🎯 Goal: UI/UX & Frontend Internship Opportunities
 
+
 👋 About Me
 
 I am an IT undergraduate (BICT) with a strong interest in UI/UX design and frontend development.
@@ -22,7 +23,9 @@ My problem-solving approach
 
 My technical implementation skills
 
+
 ✨ Key Highlights
+
 
 🎨 Modern dark UI with clean typography
 
@@ -52,7 +55,9 @@ Projects – Highlighted works
 
 Contact – Easy reach for recruiters
 
+
 🛠️ Tech Stack
+
 Frontend
 
 HTML5 (Semantic structure)
@@ -78,6 +83,7 @@ Git & GitHub
 GitHub Pages
 
 📁 Project Structure
+
 My-Portfolio/
 ├── index.html
 ├── styles/
@@ -95,12 +101,14 @@ My-Portfolio/
 │   └── resume.pdf
 └── README.md
 
+
 🚀 Deployment
 
 This portfolio is deployed using GitHub Pages.
 
 🔗 Live URL
 https://ishanthan010409.github.io/My-Portfolio/
+
 
 🎨 Customization
 
@@ -114,10 +122,12 @@ Replace images in images/
 
 Update resume in assets/resume.pdf
 
+
 📄 License
 
 This project is licensed under the MIT License.
 Free to use, modify, and distribute with attribution.
+
 
 📞 Contact
 
@@ -132,9 +142,11 @@ UI/UX Designer & IT Undergraduate
 
 🔗 LinkedIn: https://www.linkedin.com/in/thiyagaraj-ishanthan
 
+
 ⭐ Final Note
 
 This portfolio reflects my passion for design, learning mindset, and readiness for real-world projects.
 I am actively seeking opportunities to grow as a UI/UX Designer or Frontend Developer Intern.
 
 “Design is not just how it looks, but how it works.” – Steve Jobs
+
