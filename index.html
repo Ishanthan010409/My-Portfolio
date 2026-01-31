@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MY PORTFOLIO</title>
+    
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="styles/utilities/variables.css">
+    <link rel="stylesheet" href="styles/utilities/animations.css">
+    <link rel="stylesheet" href="styles/utilities/responsive.css">
+    <link rel="stylesheet" href="styles/components/header.css">
+    <link rel="stylesheet" href="styles/components/hero.css">
+    <link rel="stylesheet" href="styles/components/about.css">
+    <link rel="stylesheet" href="styles/components/skills.css">
+    <link rel="stylesheet" href="styles/components/case-studies.css">
+    <link rel="stylesheet" href="styles/components/projects.css">
+    <link rel="stylesheet" href="styles/components/contact.css">
+    <link rel="stylesheet" href="styles/components/footer.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "6yWO4kBlCq3lktB3t",
+      });
+   })();
+</script>
+<script src="scripts/main.js" defer></script>
+
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Loading Animation -->
+    <div id="loading">
+        <div class="liquid-loader">
+            <div class="liquid-drop"></div>
+            <div class="liquid-drop"></div>
+        </div>
+        <div class="loading-text">Loading creative experience...</div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">MY PORTFOLIO</a>
+                
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#case-studies">Case Studies</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Crafting Digital</span>
+                        <span class="gradient-text">Experiences</span>
+                    </h1>
+                    <p class="hero-subtitle">UI/UX Designer & IT student passionate about creating bold, user-centered digital products with expressive motion design.</p>
+                    <a href="#projects" class="cta-button">
+                        Explore My Work
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="assets/resume.pdf" class="cta-button" download>
+                        Download Resume
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="hero-illustration">
+                    <div class="illustration-container">
+                        <div class="floating-element">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <div class="floating-element">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                        <div class="floating-element">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-bg">ABOUT ME</span>
+                    <span class="animated-underline">About Me</span>
+                </h2>
+                <p class="section-subtitle">Innovative designer with a passion for creating digital experiences that are both beautiful and functional</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hi, I'm Ishanthan Thiyagaraj</h3>
+                    <p>I'm a third-year IT student specializing in Human-Computer Interaction with a deep passion for creating digital experiences that are both visually stunning and intuitively functional.</p>
+                    <p>My design philosophy centers on emotional engagement—I believe the best digital products don't just solve problems, they create meaningful connections between users and technology.</p>
+                    <p>I'm currently seeking a UI/UX Design internship where I can contribute fresh perspectives and learn from industry professionals in a dynamic, creative environment.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">25+</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">18</div>
+                            <div class="stat-label">Months Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Passion</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="morphing-circle"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-bg">SKILLS</span>
+                    <span class="animated-underline">Design Skills</span>
+                </h2>
+                <p class="section-subtitle">A diverse toolkit combining technical expertise with creative problem-solving</p>
+            </div>
+            
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="skill-title">UX Research</h3>
+                    <p class="skill-description">User interviews, persona development, journey mapping, usability testing, and data analysis to inform design decisions.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">User Testing</span>
+                        <span class="skill-tag">Personas</span>
+                        <span class="skill-tag">Analytics</span>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="skill-title">Visual Design</h3>
+                    <p class="skill-description">Creating visually compelling interfaces with attention to typography, color theory, layout, and visual hierarchy.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Adobe Creative Suite</span>
+                        <span class="skill-tag">Typography</span>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="skill-title">Prototyping</h3>
+                    <p class="skill-description">Building interactive prototypes to test concepts and communicate design intent to developers and stakeholders.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Framer</span>
+                        <span class="skill-tag">Principle</span>
+                        <span class="skill-tag">HTML/CSS/JS</span>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="skill-title">Motion Design</h3>
+                    <p class="skill-description">Designing meaningful micro-interactions and animations that enhance usability and create delightful experiences.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">After Effects</span>
+                        <span class="skill-tag">Lottie</span>
+                        <span class="skill-tag">CSS Animations</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-bg">CASE STUDIES</span>
+                    <span class="animated-underline">Case Studies</span>
+                </h2>
+                <p class="section-subtitle">Deep dives into complex design problems and user-centered solutions</p>
+            </div>
+            
+            <div class="case-studies-container">
+                <div class="case-study-card">
+                    <div class="case-study-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Wellness App">
+                    </div>
+                    <div class="case-study-content">
+                        <h3 class="case-study-title">Mindful: Wellness App</h3>
+                        <p class="case-study-description">A meditation and mindfulness app designed to reduce anxiety through personalized routines and calming interactions.</p>
+                        <a href="#" class="cta-button" style="padding: 12px 25px; font-size: 1rem;">View Case Study</a>
+                    </div>
+                </div>
+                
+                <div class="case-study-card">
+                    <div class="case-study-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="E-commerce Platform">
+                    </div>
+                    <div class="case-study-content">
+                        <h3 class="case-study-title">Urban Threads: Fashion E-commerce</h3>
+                        <p class="case-study-description">Redesigned the shopping experience for a sustainable fashion brand, increasing conversion by 35%.</p>
+                        <a href="#" class="cta-button" style="padding: 12px 25px; font-size: 1rem;">View Case Study</a>
+                    </div>
+                </div>
+                
+                <div class="case-study-card">
+                    <div class="case-study-image">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Finance Dashboard">
+                    </div>
+                    <div class="case-study-content">
+                        <h3 class="case-study-title">Finwise: Financial Dashboard</h3>
+                        <p class="case-study-description">Simplifying complex financial data through intuitive visualizations and personalized insights.</p>
+                        <a href="#" class="cta-button" style="padding: 12px 25px; font-size: 1rem;">View Case Study</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-bg">PROJECTS</span>
+                    <span class="animated-underline">Featured Projects</span>
+                </h2>
+                <p class="section-subtitle">A showcase of my most innovative and impactful design work</p>
+            </div>
+            
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-number">01</div>
+                    <div class="project-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <a href="https://tinyurl.com/8r286p5y" target="_blank" class="project-title-link">
+                        <h3 class="project-title">Company Start Page Design</h3>
+                    </a>
+                    <p class="project-description">A modern UI/UX design for a company's engaging landing page, focusing on user experience and visual appeal.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">Web Design</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-number">02</div>
+                    <div class="project-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <a href="https://tinyurl.com/3m3k8wut" target="_blank" class="project-title-link">
+                        <h3 class="project-title">Mobile Application Design</h3>
+                    </a>
+                    <p class="project-description">A user-friendly mobile app design focusing on intuitive navigation and engaging user experience.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Mobile Design</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-number">03</div>
+                    <div class="project-icon">
+                        <i class="fas fa-vr-cardboard"></i>
+                    </div>
+                    <h3 class="project-title">AR Museum Guide</h3>
+                    <p class="project-description">An augmented reality experience that transforms museum visits into interactive journeys.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AR/VR</span>
+                        <span class="skill-tag">Interactive Design</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-number">04</div>
+                    <div class="project-icon">
+                        <i class="fas fa-vr-cardboard"></i>
+                    </div>
+                    <h3 class="project-title"> Guide</h3>
+                    <p class="project-description">An augmented reality experience that transforms museum visits into interactive journeys.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AR/VR</span>
+                        <span class="skill-tag">Interactive Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-bg">CONTACT</span>
+                    <span class="animated-underline">Let's Connect</span>
+                </h2>
+                <p class="section-subtitle">I'm actively seeking UI/UX design internship opportunities for Summer/Fall 2026</p>
+            </div>
+            
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-input" id="name" placeholder=" " required>
+                        <label for="name" class="form-label">Your Name</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" class="form-input" id="email" placeholder=" " required>
+                        <label for="email" class="form-label">Your Email</label>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <input type="text" class="form-input" id="subject" placeholder=" " required>
+                        <label for="subject" class="form-label">Subject</label>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <textarea class="form-input" id="message" placeholder=" " required></textarea>
+                        <label for="message" class="form-label">Your Message</label>
+                    </div>
+                    
+                    <div class="submit-button">
+                        <button type="submit" class="cta-button" onclick="sendMail()">
+                            Send Message
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </form>
+                
+                <div class="contact-links">
+                    <a href="mailto:isanthan0409@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        isanthan0409@gmail.com
+                    </a>
+                    <a href="tel:+94756954203" class="contact-link">
+                        <i class="fas fa-phone"></i>
+                        +94 756954203
+                    </a>
+                    <a href="#" class="contact-link">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Badulla, Sri Lanka
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">CREATIVE UX</a>
+                
+                <ul class="footer-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#case-studies">Case Studies</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+                                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/thiyagaraj-ishanthan" target="_blank" class="contact-link social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/rushan_ishanthan" target="_blank" class="contact-link social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/94756954203" target="_blank" class="contact-link social-link">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://github.com/Ishanthan010409" target="_blank" class="contact-link social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                
+                <p class="copyright">© 2026 Ishanthan Thiyagaraj. All rights reserved. Designed with passion and caffeine.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="scripts/animations.js"></script>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/form.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
